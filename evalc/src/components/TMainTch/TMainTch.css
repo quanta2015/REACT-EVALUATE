@@ -1,0 +1,46 @@
+.g-mt {
+	display: flex;
+}
+
+.g-login .row {
+	padding: 15px;
+	
+}
+
+.g-login .row input {
+	height: 34px;
+	line-height: 28px \9;
+	width: 100%;
+	overflow: hidden;
+	padding: 3px 6px;
+	color: #333;
+	text-align: left;
+	background: #fff;
+	font-size: 17px;
+	border-top: 1px solid silver;
+	box-shadow: 0 2px 9px -1px #d9d9d9;
+	border: 1px solid #d9d9d9;
+}
+
+
+.g-login .row button {
+	border-radius: 2px;
+	width: 100%;
+	background-color: #ff6600;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	height: 36px;
+	line-height: 31px;
+	padding: 0 8px;
+	text-align: center;
+	outline: none;
+}
+
+
+.m-nav {
+	width: 250px;
+	background: #fff;
+	height: 100%;
+}

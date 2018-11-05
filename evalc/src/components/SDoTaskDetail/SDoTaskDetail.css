@@ -1,0 +1,47 @@
+.g-dotask-detail {
+  background: #fff;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+
+.g-dotask-detail input {
+  outline: none;
+}
+
+.task-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.task-wrap li {
+  flex:1;
+}
+
+.m-task-date {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.m-task-date>div{
+  flex:1;
+}
+
+.m-task-date span {
+  background: #999;
+  padding: 5px;
+  color: #fff;
+}
+
+.g-dotask-detail .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.g-dotask-detail Button {
+  margin-right: 10px;
+}
+
+.fn-hide {
+  display: none;
+}

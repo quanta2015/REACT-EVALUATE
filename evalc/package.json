@@ -1,0 +1,40 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "react-highcharts": "^16.0.2",
+    "react-scripts": "^1.1.4"
+  },
+  "dependencies": {
+    "antd": "^3.9.2",
+    "axios": "^0.18.0",
+    "events": "^3.0.0",
+    "highcharts-exporting": "^0.1.7",
+    "less": "^3.8.1",
+    "moment": "^2.22.2",
+    "node-less": "^1.0.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-redux-toastr": "^7.4.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.5.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.0",
+    "redux-saga-router": "^2.2.0",
+    "redux-thunk": "^2.3.0",
+    "toastr": "^2.1.4"
+  },
+  "scripts": {
+    "build-css": "lessc src/asset/less/style.less src/asset/less/style.css",
+    "start": "npm run build-css && react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  }
+}

@@ -1,0 +1,23 @@
+.g-evaltask-detail {
+  background: #fff;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+.fn-center {
+  text-align: center;
+}
+
+
+.m-eval-row {
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.g-evaltask-detail button {
+  margin-left: 10px;
+}
+
+.ant-row {
+  margin-bottom: 0;
+}

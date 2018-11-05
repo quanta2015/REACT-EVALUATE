@@ -1,0 +1,13 @@
+.g-analysis {
+  background: #fff;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+span.m-detail {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 3px 20px;
+  border-radius: 3px;
+  background: #eee;
+}

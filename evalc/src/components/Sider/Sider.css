@@ -1,0 +1,16 @@
+
+#leftMenu {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  background: #333;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+#leftMenu .logo {
+  line-height: 60px;
+  font-size: 18px;
+  color: white;
+}

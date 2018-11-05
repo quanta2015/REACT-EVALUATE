@@ -1,0 +1,136 @@
+.g-evaltask {
+  background: #fff;
+  height: 100%;
+  padding: 15px 20px;
+}
+
+.g-evaltask>.m-wrap>div {
+  margin: 0 15px 15px 0;
+}
+
+.g-evaltask>.m-wrap>div:nth-child(4n) {
+  margin-right: 0;
+}
+
+.m-taskitem {
+  width: calc( (100% - 45px )/4 );
+  float: left;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: .2s;
+  position: relative;
+}
+
+
+.m-taskitem:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.finished:before {
+  content: "F";
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: #ff6600;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+}
+
+.m-taskitem-title {
+  padding: 20px;
+  font: bold 14px/1 "microsoft yahei";
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+.g-evaltask .m-taskitem-cnt {
+  display: flex;
+}
+
+.m-task-func {
+  padding: 10px 20px;
+  border-top: 1px solid #ddd;
+  background: #eee;
+  color: #666;
+  text-align: right;
+  transition: .3s;
+}
+
+.m-task-func:hover{
+  background: #ff6600;
+  color: #fff;
+}
+
+
+.m-task-func {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.m-filelist {
+  display: flex;
+  flex:1;
+}
+
+.m-task-func>div>a>li {
+  width: 20px;
+  height: 20px;
+  background: #009900;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.m-task-func>div>.fn-hide {
+  display: none;
+}
+
+.m-do {
+  display: inline-block;
+  width: 60px;
+  border: 1px solid #aaa;
+  background: #333;
+  text-align: center;
+  color: #fff;
+}
+
+
+.g-evaltask .m-taskitem-g {
+  background: #ff6600;
+  color: #fff;
+  width: 64px;
+  /* font-size: 32px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #aaaa;
+  font: bold 32px/1 'microsoft yahei';
+}
+
+.g-evaltask .m-taskitem-detail {
+  padding: 10px 0px 10px 20px;
+  flex: 1;
+}
+
+
+.m-taskitem-cnt li, .m-filelist li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.g-evaltask .m-menu {
+  margin: 0px 0 30px 0;
+  border-bottom: 1px dashed #666;
+  padding-bottom: 15px;
+  background: #fff;
+  /* border-radius: 5px; */
+}

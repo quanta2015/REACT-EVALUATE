@@ -1,0 +1,105 @@
+.g-watchresult {
+  background: #fff;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+
+.m-result {
+  float: left;
+  border: 1px solid #eee;
+  margin: 0 10px 10px 0;
+  width: calc( ( 100% - 40px )/4 );
+  min-width: 240px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.m-result:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.m-result>div {
+  border-bottom: 1px solid #eee;
+}
+
+.m-task-title {
+  padding: 5px 10px;
+}
+
+.m-task-stu {
+  padding: 5px 10px;
+}
+
+.m-grade-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.m-stu-name {
+  display: inline-block;
+  padding: 0 5px;
+  background: #ccc;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.m-grade {
+  width: 100px;
+  border-right: 1px solid #eee;
+  color: #ff3300;
+  font: bold 48px/1 "Microsoft yahei";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.m-eval {
+  flex: 1;
+}
+
+.m-eval-t, .m-eval-s {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.m-stu-id {
+  width: 85px;
+  display: inline-block;
+}
+
+.m-eval-name {
+  flex: 1 1;
+  text-align: center;
+  background: #666;
+  color: #fff;
+}
+
+.m-eval-t .m-eval-name {
+  background: #009900;
+  color: #fff;
+}
+
+.m-eval-ret {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  color: #c33;
+}
+
+.m-wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.m-eval>div:last-child {
+  border: none;
+}
+
+.m-result>div:last-child {
+  border: none;
+}
+
+.m-red {
+  background: #ff3300;
+}
